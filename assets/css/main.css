@@ -51,7 +51,7 @@ button {
 
 button:hover { cursor: pointer; }
 
-header { min-height: 100vh; }
+header { min-height: 93vh; }
 
 header article {
 
@@ -69,25 +69,30 @@ header article {
 
 .main-name {
 
-	font-size: 0.8rem;
+	font-size: 3rem !important;
 	letter-spacing: 0.7rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 700;
 	z-index: 10;
+	padding-bottom: 3rem;
 
 }
 
 .main-subheading {
 
-	font-size: 0.75rem;
-	letter-spacing: 0.5rem;
-	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
-	font-weight: 700;
+	/* font-size: 0.75rem;
+	letter-spacing: 0.5rem; */
+	max-width: 80%;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 2rem;
+	border-radius: 50%;
+	/*font-weight: 700;*/
 	z-index: 10;
 
 }
 
 #video-background {
+
 	/* Makes the video fullscreen */
 	position: fixed;
 	right: 0; 
@@ -99,8 +104,7 @@ header article {
 	z-index: -100;
 
 	/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-	/* VIDEO PLAYS ON COMPUTER, BUT NOT ON IPHONE. SHOWS STILL IMG INSTEAD. */
-	background: url(../img/bg/tropical.jpg);
+	background: url(../img/ext-right-blue.png); /* Fix width. */
 	background-attachment: fixed;
 	background-size: cover;
 
