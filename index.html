@@ -99,66 +99,82 @@
 		</div>
 	</nav>
 
-	<!-- PROFICIENCIES -->
-	<section id="proficiencies" class="pb-5">
+	<!-- EMAIL FORM -->
+	<section id="contact" class="pb-5">
 		<div class="container">
 
 			<div class="row pb-2">
 				<div class="col">
-					<h2 class="text-white text-center display-2 section-header">Proficiencies</h2>
+					<h2 class="text-center display-2 section-header">See it for Yourself</h2>
+					<p class="lead text-center">Fill in the form below &amp; we will give you a call!</p>
 				</div>
 			</div>
 
-			<div class="row d-flex flex-row justify-content-around">
+			<div class="row">
 				
-				<div class="col-xs-6 col-sm-2 col-lg-1">
-					<div class="card bg-transparent m-3 mx-auto proficiencies-card">
-						<img src="assets/img/proficiencies/html5.png" alt="HTML5" class="card-img-top">
-						<div class="card-body px-0">
-							<h6 class="card-title text-white text-center p-0">HTML5</h6>
+				<form>
+
+					<!-- CONTACT INFO INPUTS -->
+					<div class="form-row">
+						
+						<div class="form-group col-md-3">
+							<input type="text" class="form-control" id="firstName" placeholder="First Name">
 						</div>
-					</div>
+
+						<div class="form-group col-md-3">
+							<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+						</div>
+
+						<div class="form-group col-md-3">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+						</div>
+
+						<div class="form-group col-md-3">
+							<input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
+						</div>
+
+					</div> <!-- Close CONTACT INFO INPUTS row -->
+
+					<!-- PREFERENCES -->
+					<div class="form-row">
+						
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> Email
+							</label>
+						</div>
+
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> Phone
+							</label>
+						</div>
+
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> Text Message
+							</label>
+						</div>
+
+					</div> <!-- Close PREFERENCES row -->
+
+					<!-- COMMENTS & SUBMIT -->
+					<div class="form-row">
 					
-				</div>
-				
-				<div class="col-xs-6 col-sm-2 col-lg-1">
-					<div class="card bg-transparent m-3 mx-auto proficiencies-card">
-						<img src="assets/img/proficiencies/css3.svg" alt="CSS3" class="card-img-top css3-logo">
-						<div class="card-body px-0">
-							<h6 class="card-title text-white text-center">CSS3</h6>
+						<div class="form-group">
+							<textarea class="form-control" id="comments" rows="3" placeholder="Comments"></textarea>
 						</div>
-					</div>
-				</div>
 
-				<div class="col-xs-6 col-sm-2 col-lg-1">
-					<div class="card bg-transparent m-3 mx-auto proficiencies-card">
-						<img src="assets/img/proficiencies/bootstrap-solid.svg" alt="Bootstrap" class="card-img-top bootstrap-logo">
-						<div class="card-body px-0">
-							<h6 class="card-title text-white text-center">Bootstrap</h6>
-						</div>
-					</div>
-				</div>
+						<button type="submit" class="btn btn-primary">Submit</button>
+					
+					</div> <!-- Close COMMENTS & SUBMIT row -->
 
-				<div class="col-xs-6 col-sm-2 col-lg-1">
-					<div class="card bg-transparent m-3 mx-auto proficiencies-card">
-						<img src="assets/img/proficiencies/js-logo.png" alt="JavaScript" class="card-img-top">
-						<div class="card-body px-0">
-							<h6 class="card-title text-white text-center">JavaScript</h6>
-						</div>
-					</div>
-				</div>
+				</form>
 
-				<div class="col-xs-6 col-sm-2 col-lg-1">
-					<div class="card bg-transparent m-3 mx-auto proficiencies-card">
-						<img src="assets/img/proficiencies/jquery.gif" alt="jQuery" class="card-img-top">
-						<div class="card-body px-0">
-							<h6 class="card-title text-white text-center">jQuery</h6>
-						</div>
-					</div>
-				</div>
+			</div> <!-- Close row -->
 
-			</div>
-		</div>
+		</div> <!-- Close container -->
+
 	</section>
 
 	<!-- UI/UX PROJECTS -->

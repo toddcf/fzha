@@ -99,9 +99,11 @@ header article {
 #video-background {
 
 	/* Makes the video fullscreen */
-	/*position: fixed;*/
-	right: 0; 
-	bottom: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*right: 0; 
+	bottom: 0;*/
 	min-width: 100%; 
 	min-height: 100vh;
 	width: auto;
@@ -152,13 +154,17 @@ header article {
 #certificates,
 #about { min-height: 100vh; }
 
-#proficiencies {
+#contact {
 
-	background: url(../img/bg/bg01.jpg);
+	background: url(../img/int-front.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 
+}
+
+#contact h2 {
+	color: #555;
 }
 
 .proficiencies-card {
@@ -279,8 +285,6 @@ header article {
 .connect-link a:active { color: #999 !important; }
 
 .connect-icon { font-size: 57px; }
-
-.footer { background-color: #000; }
 
 /* MEDIA QUERIES */
 
