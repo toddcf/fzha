@@ -69,10 +69,10 @@ header article {
 
 .main-name {
 
-	font-size: 3rem !important;
+	font-size: 2rem;
 	letter-spacing: 0.7rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
-	font-weight: 700;
+	font-weight: 400;
 	z-index: 10;
 	padding-bottom: 3rem;
 
@@ -82,8 +82,8 @@ header article {
 
 	/* font-size: 0.75rem;
 	letter-spacing: 0.5rem; */
-	max-width: 80%;
-	background-color: rgba(255, 255, 255, 0.5);
+	max-width: 90%;
+	background-color: rgba(255, 255, 255, 0.2);
 	padding: 2rem;
 	border-radius: 50%;
 	/*font-weight: 700;*/
@@ -91,14 +91,19 @@ header article {
 
 }
 
+.accord-logo {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
 #video-background {
 
 	/* Makes the video fullscreen */
-	position: fixed;
+	/*position: fixed;*/
 	right: 0; 
 	bottom: 0;
 	min-width: 100%; 
-	min-height: 100vh;
+	height: 100%;
 	width: auto;
 	height: auto;
 	z-index: -100;
