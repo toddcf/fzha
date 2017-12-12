@@ -167,23 +167,33 @@ header article {
 
 }
 
-#contact h2 {
-	color: #555;
-}
-
 /* FORM */
 
+.title-wrapper,
 .form-wrapper {
 	background-color: rgba( 0, 0, 0, 0.7 );
 	border-radius: 10px;
-	padding: 20px;
 }
 
 .preferences {
 	width: 50%;
 }
 
+#comments {
+	height: 98px;
+}
+
 .recaptcha {
+	width: 100%;
+	padding: 0;
+	margin-top: -5px;
+}
+
+.btn-container {
+	width: 50%;
+}
+
+.btn-submit {
 	width: 100%;
 }
 
