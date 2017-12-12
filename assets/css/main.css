@@ -219,6 +219,13 @@ header article {
 	color: #0075b7 !important;
 }
 
+.animate-1 {
+
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+
+}
+
 .turbo-text,
 .turbo-img,
 .int-text,
