@@ -100,15 +100,15 @@
 	</nav>
 
 	<!-- EMAIL FORM -->
-	<section id="contact" class="pb-5">
+	<section id="contact-section" class="pb-5">
 		<div class="container">
 
 			<div class="row pb-2">
 				<div class="col">
 
-					<div class="title-wrapper text-white">
-						<h2 class="text-center display-2 section-header">See it for Yourself</h2>
-						<p class="lead text-center">Fill in the form below &amp; we will give you a call!</p>
+					<div class="mt-4 title-wrapper text-white">
+						<h2 class="text-center display-2 section-header pt-4">See it for Yourself</h2>
+						<p class="lead text-center p-4">Fill in the form below &amp; we will give you a call!</p>
 					</div>
 					
 				</div>
@@ -116,74 +116,78 @@
 
 			<div class="row">
 
-				<div class="form-wrapper mx-auto p-4">
-				
-					<form>
+				<div class="col">
 
-						<!-- CONTACT INFO INPUTS -->
-						<div class="form-row">
+					<div class="form-wrapper mx-auto p-4">
+					
+						<form>
+
+							<!-- CONTACT INFO INPUTS -->
+							<div class="form-row">
+								
+								<div class="form-group col-md-3">
+									<input type="text" class="form-control" id="firstName" placeholder="First Name">
+								</div>
+
+								<div class="form-group col-md-3">
+									<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+								</div>
+
+								<div class="form-group col-md-3">
+									<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+								</div>
+
+								<div class="form-group col-md-3">
+									<input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
+								</div>
+
+							</div> <!-- Close CONTACT INFO INPUTS row -->
+
+							<!-- PREFERENCES -->
+							<div class="form-row mx-auto text-white preferences">
+								
+								<!-- LABEL: Preferred: -->
+
+								<div class="form-check form-check-inline pl-4">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="emailPref" checked> Email
+									</label>
+								</div>
+
+								<div class="form-check form-check-inline pl-4">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="phonePref"> Phone
+									</label>
+								</div>
+
+								<div class="form-check form-check-inline pl-4">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="textPref"> Text Message
+									</label>
+								</div>
+
+							</div> <!-- Close PREFERENCES row -->
+
+							<!-- COMMENTS & SUBMIT -->
+							<div class="form-row">
 							
-							<div class="form-group col-md-3">
-								<input type="text" class="form-control" id="firstName" placeholder="First Name">
-							</div>
+								<div class="form-group col-md-6">
+									<textarea class="form-control" id="comments" placeholder="Comments"></textarea>
+								</div>
 
-							<div class="form-group col-md-3">
-								<input type="text" class="form-control" id="lastName" placeholder="Last Name">
-							</div>
-
-							<div class="form-group col-md-3">
-								<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-							</div>
-
-							<div class="form-group col-md-3">
-								<input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
-							</div>
-
-						</div> <!-- Close CONTACT INFO INPUTS row -->
-
-						<!-- PREFERENCES -->
-						<div class="form-row mx-auto text-white preferences">
+								<div class="col-md-6">
+									<img src="assets/img/hero-recaptcha-demo.gif" alt="Recaptcha Here" class="recaptcha">
+								</div>
 							
-							<!-- LABEL: Preferred: -->
+							</div> <!-- Close COMMENTS & SUBMIT row -->
 
-							<div class="form-check form-check-inline pl-4">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="emailPref"> Email
-								</label>
+							<div class="mx-auto text-center btn-container pt-3">
+								<button type="submit" class="btn btn-lg text-white btn-submit">Submit</button>
 							</div>
 
-							<div class="form-check form-check-inline pl-4">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="phonePref"> Phone
-								</label>
-							</div>
+						</form>
 
-							<div class="form-check form-check-inline pl-4">
-								<label class="form-check-label">
-									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="textPref"> Text Message
-								</label>
-							</div>
-
-						</div> <!-- Close PREFERENCES row -->
-
-						<!-- COMMENTS & SUBMIT -->
-						<div class="form-row">
-						
-							<div class="form-group col-md-6">
-								<textarea class="form-control" id="comments" placeholder="Comments"></textarea>
-							</div>
-
-							<div class="col-md-6">
-								<img src="assets/img/hero-recaptcha-demo.gif" alt="Recaptcha Here" class="recaptcha">
-							</div>
-						
-						</div> <!-- Close COMMENTS & SUBMIT row -->
-
-						<div class="mx-auto text-center btn-container pt-3">
-							<button type="submit" class="btn btn-lg text-white btn-submit">Submit</button>
-						</div>
-
-					</form>
+					</div> <!-- Close .col -->
 
 				</div> <!-- Close .form-wrapper -->
 
@@ -193,17 +197,44 @@
 
 	</section>
 
-	<!-- UI/UX PROJECTS -->
-	<section id="ui-ux" class="pb-5">
+	<!-- EVOLUTION -->
+	<section id="evolution" class="pb-5">
 		<div class="container">
 			
-			<div class="row pb-4">
+			<div class="row pb-2">
 				<div class="col">
-					<h2 class="text-dark text-center display-2 section-header">UI/UX Projects</h2>
+
+					<div class="mt-4 title-wrapper text-white">
+						<h2 class="text-center display-2 section-header p-4">The Art Of Evolution</h2>
+					</div>
+					
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row d-flex flex-row flex-wrap justify-content-center">
+
+				<div class="col-md-6">
+					<div class="card bg-transparent m-3">
+						<img class="card-img-top" src="assets/img/ext-front-left-gray.png" alt="Accord Exterior">
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Accord 1.5L Turbo</h3>
+							<p class="text-dark text-justify">The 1.5L Turbo Models make excitement accessible, with a best-in-class* 192 lb-ft of torque* really available from 1500 rpm. Starting at $23,570* and equipped with more standard features than ever, it's sophisticated, sleek and all you expect in an Accord.</p>
+							<h5 class="card-subtitle mb-2 text-muted text-center">Honda Sensing Standard</h5>
+							<ul class="text-dark">
+								<li>LED Headlights with Auto High-Beam</li>
+								<li>Multi-Angle Rearview Camera</li>
+								<li>Dual-Zone Automatic Climate Control</li>
+								<li>Push Button Start</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
 				
 				<!-- OMNIFOOD -->
 				<div class="col-md-6 col-lg-4">

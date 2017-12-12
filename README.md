@@ -29,16 +29,23 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Contact Section
 
+#### Heading
+
+- Stylize bg div.
+
 #### Form
 
 - Add "required".
-- Align Recaptcha.
 - SUBMIT button:
-  - Align center.
-  - Stylize width.
   - Add hover and click effects.
 - Pop the entire form out toward you upon scrolling down.
 
+### Evolution Section
+
+#### Cards
+
+- Space text for better readability.
+
 ### Footer
 
-- Format social media icons so they don't extend further right than the footnotes.
+- Format social media icons so they don't extend farther right than the footnotes.

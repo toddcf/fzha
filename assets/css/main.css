@@ -145,9 +145,7 @@ header article {
 
 .section-header {
 
-	padding-top: 70px;
-	padding-bottom: 40px;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	letter-spacing: 0.3rem;
 	font-weight: 700;
 
@@ -158,7 +156,7 @@ header article {
 #certificates,
 #about { min-height: 100vh; }
 
-#contact {
+#contact-section {
 
 	background: url(../img/int-front.jpg);
 	background-size: cover;
@@ -190,11 +188,29 @@ header article {
 }
 
 .btn-container {
-	width: 50%;
+	width: 100%;
 }
 
 .btn-submit {
 	width: 100%;
+}
+
+/* EVOLUTION */
+
+#evolution {
+	background: -webkit-gradient(linear,left top, right top,color-stop(0, #051d46),to(#345f9b));
+	background: -webkit-linear-gradient(left,#051d46 0,#345f9b 100%);
+	background: -o-linear-gradient(left,#051d46 0,#345f9b 100%);
+	background: linear-gradient(to right,#051d46 0,#345f9b 100%);
+	color: #fff;
+}
+
+.card {
+	background-color: rgba( 255, 255, 255, 0.85 );
+}
+
+.card-title {
+	color: #0075b7 !important;
 }
 
 .proficiencies-card {
