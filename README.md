@@ -27,6 +27,11 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 - Accord logo:
   - White bg shadow oval with blurred edges behind ACCORD logo.
 
+### Nav
+
+- Add logos.
+- Change nav items and set scrolling feature.
+
 ### Contact Section
 
 #### Heading
@@ -44,7 +49,8 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 #### Cards
 
-- Space text for better readability.
+- Change order based on screen width.
+- Animate in from left and right accordingly.
 
 ### Footer
 

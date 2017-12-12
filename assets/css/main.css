@@ -214,6 +214,16 @@ header article {
 	color: #0075b7 !important;
 }
 
+.turbo-text,
+.turbo-img,
+.int-text,
+.int-img { opacity: 0; }
+
+.turbo-text.animate-1.fadeInLeft,
+.turbo-img.animate-1.fadeInRight,
+.int-text.animate-1.fadeInRight,
+.int-img.animate-1.fadeInLeft { opacity: 1; }
+
 .proficiencies-card {
 
 	max-width: 65px !important;
