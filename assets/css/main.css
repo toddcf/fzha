@@ -198,15 +198,20 @@ header article {
 /* EVOLUTION */
 
 #evolution {
-	background: -webkit-gradient(linear,left top, right top,color-stop(0, #051d46),to(#345f9b));
+	background-image: linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero.jpg );
+	/*background-image: url( ../img/hero.jpg );*/
+	background-attachment: fixed;
+	/*background-position: center;*/
+	background-size: cover;
+	/*background: -webkit-gradient(linear,left top, right top,color-stop(0, #051d46),to(#345f9b));
 	background: -webkit-linear-gradient(left,#051d46 0,#345f9b 100%);
 	background: -o-linear-gradient(left,#051d46 0,#345f9b 100%);
-	background: linear-gradient(to right,#051d46 0,#345f9b 100%);
+	background: linear-gradient(to right,#051d46 0,#345f9b 100%);*/
 	color: #fff;
 }
 
 .card {
-	background-color: rgba( 255, 255, 255, 0.8 );
+	/*background-color: rgba( 255, 255, 255, 0.85 );*/
 	border: none;
 }
 
