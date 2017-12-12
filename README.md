@@ -25,9 +25,18 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 - Fix width of backup bg image.
 - Add mask to darken bg.
 - Accord logo:
-  - White bg shadow oval behind ACCORD logo.
-  - Center logo.
+  - White bg shadow oval with blurred edges behind ACCORD logo.
 
+### Contact Section
+
+#### Form
+
+- Add "required".
+- Align Recaptcha.
+- SUBMIT button:
+  - Align center.
+  - Stylize width.
+  - Add hover and click effects.
 
 ### Footer
 

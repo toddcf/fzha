@@ -45,7 +45,7 @@
 		<!--Text Overlay -->
 		<article class="m-auto text-center">
 			<h1 class="h1-responsive mb-4 text-white main-name animate-8 fadeInDown">Introducing the All New 2018</h1>
-			<div class="main-subheading animate-8 fadeInUp">
+			<div class="mx-auto main-subheading animate-8 fadeInUp">
 				<img src="assets/img/accord-logo.png" class="accord-logo">
 			</div>
 			<!-- <a href="#" class="btn btn-enter text-white py-3 px-5 scroll-to-ui-ux animate-8 fadeIn animate-delay-c">PORTFOLIO</a> -->
@@ -111,65 +111,75 @@
 			</div>
 
 			<div class="row">
+
+				<div class="form-wrapper mx-auto">
 				
-				<form>
+					<form>
 
-					<!-- CONTACT INFO INPUTS -->
-					<div class="form-row">
+						<!-- CONTACT INFO INPUTS -->
+						<div class="form-row">
+							
+							<div class="form-group col-md-3">
+								<input type="text" class="form-control" id="firstName" placeholder="First Name">
+							</div>
+
+							<div class="form-group col-md-3">
+								<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+							</div>
+
+							<div class="form-group col-md-3">
+								<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+							</div>
+
+							<div class="form-group col-md-3">
+								<input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
+							</div>
+
+						</div> <!-- Close CONTACT INFO INPUTS row -->
+
+						<!-- PREFERENCES -->
+						<div class="form-row mx-auto text-white preferences">
+							
+							<!-- LABEL: Preferred: -->
+
+							<div class="form-check form-check-inline pl-4">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="emailPref"> Email
+								</label>
+							</div>
+
+							<div class="form-check form-check-inline pl-4">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="phonePref"> Phone
+								</label>
+							</div>
+
+							<div class="form-check form-check-inline pl-4">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="textPref"> Text Message
+								</label>
+							</div>
+
+						</div> <!-- Close PREFERENCES row -->
+
+						<!-- COMMENTS & SUBMIT -->
+						<div class="form-row">
 						
-						<div class="form-group col-md-3">
-							<input type="text" class="form-control" id="firstName" placeholder="First Name">
-						</div>
+							<div class="form-group col-md-6">
+								<textarea class="form-control" id="comments" rows="3" placeholder="Comments"></textarea>
+							</div>
 
-						<div class="form-group col-md-3">
-							<input type="text" class="form-control" id="lastName" placeholder="Last Name">
-						</div>
-
-						<div class="form-group col-md-3">
-							<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-						</div>
-
-						<div class="form-group col-md-3">
-							<input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
-						</div>
-
-					</div> <!-- Close CONTACT INFO INPUTS row -->
-
-					<!-- PREFERENCES -->
-					<div class="form-row">
+							<div class="col-md-6">
+								<img src="assets/img/hero-recaptcha-demo.gif" alt="Recaptcha Here" class="recaptcha">
+							</div>
 						
-						<div class="form-check form-check-inline">
-							<label class="form-check-label">
-								<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"> Email
-							</label>
-						</div>
+						</div> <!-- Close COMMENTS & SUBMIT row -->
 
-						<div class="form-check form-check-inline">
-							<label class="form-check-label">
-								<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> Phone
-							</label>
-						</div>
+						<button type="submit" class="btn btn-submit mx-auto">Submit</button>
 
-						<div class="form-check form-check-inline">
-							<label class="form-check-label">
-								<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2"> Text Message
-							</label>
-						</div>
+					</form>
 
-					</div> <!-- Close PREFERENCES row -->
-
-					<!-- COMMENTS & SUBMIT -->
-					<div class="form-row">
-					
-						<div class="form-group">
-							<textarea class="form-control" id="comments" rows="3" placeholder="Comments"></textarea>
-						</div>
-
-						<button type="submit" class="btn btn-primary">Submit</button>
-					
-					</div> <!-- Close COMMENTS & SUBMIT row -->
-
-				</form>
+				</div> <!-- Close .form-wrapper -->
 
 			</div> <!-- Close row -->
 

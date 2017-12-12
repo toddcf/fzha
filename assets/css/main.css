@@ -117,6 +117,10 @@ header article {
 
 }
 
+.btn {
+	background-color: #0075b7;
+}
+
 .btn-enter:link,
 .btn-enter:visited {
 	
@@ -165,6 +169,22 @@ header article {
 
 #contact h2 {
 	color: #555;
+}
+
+/* FORM */
+
+.form-wrapper {
+	background-color: rgba( 0, 0, 0, 0.7 );
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.preferences {
+	width: 50%;
+}
+
+.recaptcha {
+	width: 100%;
 }
 
 .proficiencies-card {
