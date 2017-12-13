@@ -28,14 +28,14 @@ header { height: 90vh; }
 header article {
 
 	/* CENTER HORIZONTALLY & VERTICALLY: */
-	position: absolute;
+	/*position: absolute;
 	width: 100%;
 	height: auto;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-	    	transform: translate(-50%, -50%);
+	    	transform: translate(-50%, -50%);*/
 
 }
 
@@ -46,20 +46,28 @@ header article {
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 400;
 	z-index: 10;
-	padding-bottom: 3rem;
+	/*padding-bottom: 3rem;*/
 
+}
+
+.main-name-bg {
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-subheading {
 
 	/* font-size: 0.75rem;
 	letter-spacing: 0.5rem; */
-	max-width: 90%;
-	background-color: rgba(255, 255, 255, 0.2);
-	padding: 2rem;
-	border-radius: 50%;
+	/*max-width: 90%;*/
+	
+	/*padding: 2rem;*/
+	/*border-radius: 50%;*/
 	z-index: 10;
+	
+}
 
+.main-subheading-bg {
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .accord-logo {
@@ -429,14 +437,14 @@ header article {
 		height: 128px;
 	}
 
-	.main-name { font-size: 6rem; }
+	.main-name { font-size: 2rem; }
 
-	.main-subheading {
+	/*.main-subheading {
 
 		font-size: 4rem;
 		letter-spacing: 1rem;
 
-	}
+	}*/
 
 	.section-header { font-size: 4rem; }
 
