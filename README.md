@@ -58,7 +58,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 ### Footer
 
 - Continue refining widths of each column at different breakpoints.
-- Add bounceInUp to each social media icon.
+- Add bounceInUp to each social media icon ONE AFTER ANOTHER.
 
 ## Notable Features
 
