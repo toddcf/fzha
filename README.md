@@ -25,15 +25,14 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 - Accord logo:
   - White bg shadow oval with blurred edges behind ACCORD logo.
 - Fix width of backup bg image.
-- Add mask to darken bg.
 - Add the three call-to-action buttons.
   - (And their hover and click effects.)
-- Add the awards, etc.
 
 ### Nav
 
-- Add logos.
-- Change nav items and set scrolling feature.
+- Add mobile responsiveness.
+- Add second layer below the first.
+- Finally, adjust height so it rests at the bottom of the header when scrolled all the way up.
 
 ### Contact Section
 
