@@ -11,7 +11,9 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 ### Header
 
 - Add the three call-to-action buttons.
-  - (And their hover and click effects.)
+  - Position flexbox near bottom of header.
+  - Fix so there is never any overlap when resizing screen.
+  - Add hover and click effects.
 
 ### Nav
 

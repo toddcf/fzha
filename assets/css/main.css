@@ -95,7 +95,12 @@ header article {
 .heading-btn-ctr {
 
 	/*position: absolute;*/
-	
+	/*bottom: 150px;*/
+
+}
+
+.hero-btns {
+	/*margin: 20rem;*/
 }
 
 #video-background {
