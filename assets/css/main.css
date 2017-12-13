@@ -58,8 +58,8 @@ header { height: 90vh; }
 header article {
 
 	/* CENTER HORIZONTALLY & VERTICALLY: */
-	/*position: absolute;
-	width: 100%;
+	/*position: relative;*/
+	/*width: 100%;
 	height: auto;
 	top: 50%;
 	left: 50%;
@@ -90,6 +90,12 @@ header article {
 .accord-logo {
 	max-width: 90%;
 	margin: 0 auto;
+}
+
+.heading-btn-ctr {
+
+	/*position: absolute;*/
+	
 }
 
 #video-background {

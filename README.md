@@ -10,9 +10,6 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Header
 
-- Accord logo:
-  - White bg shadow oval with blurred edges behind ACCORD logo.
-- Fix width of backup bg image.
 - Add the three call-to-action buttons.
   - (And their hover and click effects.)
 
