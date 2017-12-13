@@ -48,18 +48,10 @@ footer li {
 
 }
 
-.footnotes {
-	text-align: justify;
-}
+.footnotes { text-align: justify; }
 
-.footnotes-ul {
-	width: 95%;
-}
+.footnotes-ul { width: 95%; }
 
-.fa {
-	font-size: 57px;
-}
+.fa { font-size: 57px; }
 
-.copyright {
-	padding-bottom: 20px;
-}
+.copyright { padding-bottom: 20px; }
