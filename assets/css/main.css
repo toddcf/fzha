@@ -123,6 +123,7 @@ header article {
 
 }
 
+.navbar-brand,
 .brand-banner {
 	max-width: 75%;
 }
@@ -159,7 +160,7 @@ header article {
 }
 
 .preferences {
-	width: 50%;
+	width: 80%;
 }
 
 #comments {
