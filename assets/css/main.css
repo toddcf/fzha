@@ -92,12 +92,7 @@ header article {
 	margin: 0 auto;
 }
 
-.heading-btn-ctr {
-
-	/*position: absolute;*/
-	/*bottom: 150px;*/
-
-}
+.heading-btn-ctr { margin-top: 25%; }
 
 .hero-btns {
 	/*margin: 20rem;*/
@@ -237,6 +232,8 @@ header article {
 
 	header { height: 75vh; }
 
+	.heading-btn-ctr { margin-top: 15%; }
+
 	#video-background { min-height: 75vh; }
 
 	.section-header { font-size: 2.5rem; }
@@ -247,6 +244,8 @@ header article {
 @media (min-width: 992px) {
 
 	header { height: 83vh; }
+
+	.heading-btn-ctr { margin-top: 25%; }
 
 	#video-background { min-height: 83vh; }
 
