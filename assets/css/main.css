@@ -205,7 +205,8 @@ header article {
 	border: none;
 }
 
-.card-title {
+.card-title,
+.card-subtitle {
 	color: #0075b7 !important;
 }
 
