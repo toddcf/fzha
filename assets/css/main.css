@@ -1,33 +1,5 @@
 * { font-family: 'Lato', sans-serif; }
 
-/*@font-face {
-	font-family: 'Lato', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	src: url(../fonts/Lato-Regular.tff);
-}
-
-@font-face {
-	font-family: 'Lato', sans-serif;
-	font-style: light;
-	font-weight: 300;
-	src: url(../fonts/Lato-Light.tff);
-}
-
-@font-face {
-	font-family: 'Lato', sans-serif;
-	font-style: bold;
-	font-weight: 700;
-	src: url(../fonts/Lato-Bold.tff);
-}*/
-
-/*@font-face {
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 300;
-src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}*/
-
 body {
 
 	margin: 0;
@@ -86,7 +58,6 @@ header article {
 	background-color: rgba(255, 255, 255, 0.2);
 	padding: 2rem;
 	border-radius: 50%;
-	/*font-weight: 700;*/
 	z-index: 10;
 
 }
@@ -114,6 +85,7 @@ header article {
 	background: url(../img/ext-right-blue.png); /* Fix width. */
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 
 }
 
@@ -191,7 +163,8 @@ header article {
 }
 
 #comments {
-	height: 98px;
+	/*height: 98px;*/
+	height: 75px;
 }
 
 .recaptcha {
@@ -356,6 +329,10 @@ header article {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
+	.btn-submit {
+		width: 50%;
+	}
+
 	.main-name {
 
 		font-size: 1.5rem;
@@ -402,6 +379,10 @@ header article {
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
+	#comments {
+		height: 106px;
+	}
+
 	.main-name { font-size: 4.5rem; }
 
 	.main-subheading { font-size: 3rem; }
@@ -417,6 +398,11 @@ header article {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+	#comments {
+		/*height: 98px;*/
+		height: 128px;
+	}
 
 	.main-name { font-size: 6rem; }
 
