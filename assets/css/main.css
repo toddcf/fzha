@@ -151,6 +151,10 @@ header article {
 
 }
 
+.brand-banner {
+	max-width: 75%;
+}
+
 /*#ui-ux,
 #javascript,
 #certificates,
@@ -169,7 +173,7 @@ header article {
 
 .title-wrapper,
 .form-wrapper {
-	background-color: rgba( 0, 0, 0, 0.7 );
+	background-color: rgba( 0, 0, 0, 0.55 );
 	border-radius: 10px;
 }
 
