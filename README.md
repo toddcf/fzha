@@ -10,7 +10,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Header
 
-- fadeInRight each button ONE AT A TIME, after a delay.
+- fadeInRight each button ONE AT A TIME, after a delay. (DO NOT use Waypoints, as there is no need to trigger something on scroll that is at the top of the page.)
 
 ### Nav
 
@@ -24,7 +24,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 #### Form
 
-- Pop the entire form out toward you upon scrolling down.
+- N/A
 
 ### Evolution Section
 
@@ -32,7 +32,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Footer
 
-- Add fadeInRight to each social media icon ONE AFTER ANOTHER when scrolled to.
+- N/A
 
 ## Notable Features
 

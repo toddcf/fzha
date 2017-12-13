@@ -1,7 +1,9 @@
 
-/*#shop,
-#schedule,
-#view,*/
+/*.hero-btns,
+.shop-btn,
+.schedule-btn,
+.view-btn,*/
+.form-animate,
 .turbo-img,
 .turbo-text,
 .int-img,
@@ -11,9 +13,11 @@
 .fa-youtube-square,
 .fa-google-plus-square { opacity: 0; }
 
-/*#shop.animate-1.animate-delay-a.fadeInRight,*/
-/*#schedule.animate-1.animate-delay-b.fadeInRight,*/
-/*#view.animate-1.animate-delay-c.fadeInRight,*/
+/*.hero-btns.fadeInRight,
+.shop-btn.fadeInRight,
+.schedule-btn.fadeInRight,
+.view-btn.fadeInRight,*/
+.form-animate.animate-0-75.bounceIn,
 .turbo-img.animate-1.fadeInRight,
 .turbo-text.animate-1.fadeInLeft,
 .int-img.animate-1.fadeInLeft,
@@ -48,13 +52,6 @@
 
 }
 
-.animate-2 {
-
-	-webkit-animation-duration: 2s;
-	animation-duration: 2s;
-
-}
-
 .animate-delay-a {
 
 	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
@@ -81,6 +78,43 @@
 	-webkit-animation-delay: 3.5s; /* Safari 4.0 - 8.0 */
 			animation-delay: 3.5s;
 
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-name: bounceIn;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -533,192 +567,3 @@
 
 }
 
-.portfolio-overlay {
-
-	position: absolute;
-	width: 100%;
-	height: auto;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
-
-}
-
-.portfolio-overlay a:link,
-.portfolio-overlay a:visited {
-
-	text-decoration: none;
-	color: #e1e1e1;
-
-}
-
-.portfolio-overlay a:hover,
-.portfolio-overlay a:active { color: #fff; }
-
-/*!
- * Waves v0.7.5
- * http://fian.my.id/Waves 
- * 
- * Copyright 2014-2016 Alfiana E. Sibuea and other contributors 
- * Released under the MIT license 
- * https://github.com/fians/Waves/blob/master/LICENSE 
- */
-.waves-effect {
-	
-	position: relative;
-	cursor: pointer;
-	overflow: hidden;
-	-webkit-user-select: none;
-	   -moz-user-select: none;
-	    -ms-user-select: none;
-	        user-select: none;
-	-webkit-tap-highlight-color: transparent;
-	z-index: 1;
-
-}
-
-.waves-effect .waves-ripple {
-	
-	position: absolute;
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	margin-top: -50px;
-	margin-left: -50px;
-	opacity: 0;
-	background: rgba(0, 0, 0, 0.2);
-	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
-	background: -o-radial-gradient(rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
-	background: radial-gradient(rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
-	-webkit-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out;
-	-webkit-transition-property: opacity, -webkit-transform;
-	transition-property: opacity, -webkit-transform;
-	-o-transition-property: transform, opacity;
-	transition-property: transform, opacity;
-	transition-property: transform, opacity, -webkit-transform;
-	-webkit-transform: scale(0) translate(0, 0);
-	-ms-transform: scale(0) translate(0, 0);
-	transform: scale(0) translate(0, 0);
-	pointer-events: none;
-
-}
-
-.waves-effect.waves-light .waves-ripple {
-
-	background: rgba(255, 255, 255, 0.4);
-	background: -webkit-radial-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
-	background: -o-radial-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
-	background: radial-gradient(rgba(255, 255, 255, 0.2) 0, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
-
-}
-
-.waves-effect.waves-classic .waves-ripple { background: rgba(0, 0, 0, 0.2); }
-
-.waves-effect.waves-classic.waves-light .waves-ripple { background: rgba(255, 255, 255, 0.4); }
-
-.waves-notransition {
-
-	-webkit-transition: none !important;
-	-o-transition: none !important;
-	transition: none !important;
-
-}
-
-.waves-button,
-.waves-circle {
-
-	-webkit-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	transform: translateZ(0);
-	-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
-
-}
-
-.waves-button,
-.waves-button:hover,
-.waves-button:visited,
-.waves-button-input {
-
-	white-space: nowrap;
-	vertical-align: middle;
-	cursor: pointer;
-	border: none;
-	outline: none;
-	color: inherit;
-	background-color: transparent;
-	font-size: 1em;
-	line-height: 1em;
-	text-align: center;
-	text-decoration: none;
-	z-index: 1;
-
-}
-
-.waves-button {
-
-	padding: 0.85em 1.1em;
-	border-radius: 0.2em;
-
-}
-
-.waves-button-input {
-
-	margin: 0;
-	padding: 0.85em 1.1em;
-
-}
-
-.waves-input-wrapper {
-
-	border-radius: 0.2em;
-	vertical-align: bottom;
-	display: inline-block;
-
-}
-
-.waves-input-wrapper.waves-button { padding: 0; }
-
-.waves-input-wrapper .waves-button-input {
-
-	position: relative;
-	top: 0;
-	left: 0;
-	z-index: 1;
-
-}
-
-.waves-circle {
-
-	text-align: center;
-	width: 2.5em;
-	height: 2.5em;
-	line-height: 2.5em;
-	border-radius: 50%;
-
-}
-
-.waves-float {
-	
-	-webkit-mask-image: none;
-	-webkit-box-shadow: 0px 1px 1.5px 1px rgba(0, 0, 0, 0.12);
-	box-shadow: 0px 1px 1.5px 1px rgba(0, 0, 0, 0.12);
-	-webkit-transition: all 300ms;
-	-o-transition: all 300ms;
-	transition: all 300ms;
-
-}
-
-.waves-float:active {
-	
-	-webkit-box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 8px 20px 1px rgba(0, 0, 0, 0.3);
-
-}
-
-.waves-block { display: block; }
-
-a.waves-effect, a.waves-light { display: inline-block; }

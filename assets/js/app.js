@@ -4,23 +4,22 @@ $( document ).ready( function() {
 
 	// HEADER
 
-	// $( "#omnifood" ).waypoint( function( direction ) {
-	// 	$( "#omnifood" ).addClass( "animate-1 fadeInUp" );
-	// }, {
-	// 	offset: "85%"
-	// });
-	// We actually aren't using "direction" in this case, because this animation will only happen once.
+	// $( ".shop-btn" ).addClass( "animate-1 animate-delay-a fadeInRight" );
+	// $( ".schedule-btn" ).addClass( "animate-1 animate-delay-b fadeInRight" );
+	// $( ".view-btn" ).addClass( "animate-1 animate-delay-c fadeInRight" );
 
-	$( "#shop" ).waypoint( function( direction ) {
-		$( "#shop").addClass( "animate-1 animate-delay-a fadeInRight");
-		$( "#schedule").addClass( "animate-1 animate-delay-b fadeInRight");
-		$( "#view").addClass( "animate-1 animate-delay-c fadeInRight");
+
+	// CONNECT SECTION
+
+	$( ".form-animate" ).waypoint( function( direction ) {
+		$( ".form-animate" ).addClass( "animate-0-75 bounceIn" );
 	}, {
-		offset: "85%"
+		offset: "65%"
 	});
 
-	
+
 	// EVOLUTION SECTION
+
 	$( ".turbo-img" ).waypoint( function( direction ) {
 		$( ".turbo-img" ).addClass( "animate-1 fadeInRight" );
 	}, {
@@ -46,14 +45,6 @@ $( document ).ready( function() {
 	});
 
 	
-	// CONNECT SECTION
-	$( "#connect-github" ).waypoint( function( direction ) {
-		$( "#connect-github" ).addClass( "animate-1 bounceInUp" );
-	}, {
-		offset: "85%"
-	});
-
-
 	// FOOTER
 
 	$( ".fa-facebook-square" ).waypoint( function( direction ) {
