@@ -43,6 +43,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 #### Form
 
 - Add "required".
+- Adjust height of COMMENTS textarea based on media queries.
 - SUBMIT button:
   - Add hover and click effects.
   - Adjust width based on media queries.
