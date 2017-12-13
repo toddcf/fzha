@@ -29,6 +29,9 @@ button:hover { cursor: pointer; }
 	background-color: #0075b7;
 }
 
+.btn:hover,
+.btn:active { background-color: #005889; }
+
 .btn-enter:link,
 .btn-enter:visited {
 	

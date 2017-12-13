@@ -10,10 +10,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Header
 
-- Add the three call-to-action buttons.
-  - Position flexbox near bottom of header.
-  - Fix so there is never any overlap when resizing screen.
-  - Add hover and click effects.
+- fadeInRight each button ONE AT A TIME, after a delay.
 
 ### Nav
 
@@ -30,7 +27,6 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 - Add "required".
 - SUBMIT button:
   - Add hover and click effects.
-  - Adjust width based on media queries.
 - Pop the entire form out toward you upon scrolling down.
 
 ### Evolution Section
