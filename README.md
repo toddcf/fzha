@@ -32,7 +32,7 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Footer
 
-- Add fadeInRight to each social media icon ONE AFTER ANOTHER.
+- Add fadeInRight to each social media icon ONE AFTER ANOTHER when scrolled to.
 
 ## Notable Features
 
