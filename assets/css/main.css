@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 * { font-family: 'Lato', sans-serif; }
 
 body {
@@ -22,80 +24,6 @@ button {
 }
 
 button:hover { cursor: pointer; }
-
-header { height: 90vh; }
-
-header article {
-
-	/* CENTER HORIZONTALLY & VERTICALLY: */
-	/*position: absolute;
-	width: 100%;
-	height: auto;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-	    	transform: translate(-50%, -50%);*/
-
-}
-
-.main-name {
-
-	font-size: 2rem;
-	letter-spacing: 0.7rem;
-	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
-	font-weight: 400;
-	z-index: 10;
-	/*padding-bottom: 3rem;*/
-
-}
-
-.main-name-bg {
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-.main-subheading {
-
-	/* font-size: 0.75rem;
-	letter-spacing: 0.5rem; */
-	/*max-width: 90%;*/
-	
-	/*padding: 2rem;*/
-	/*border-radius: 50%;*/
-	z-index: 10;
-	
-}
-
-.main-subheading-bg {
-	background-color: rgba(255, 255, 255, 0.2);
-}
-
-.accord-logo {
-	max-width: 90%;
-	margin: 0 auto;
-}
-
-#video-background {
-
-	/* Makes the video fullscreen */
-	position: fixed;
-	top: 0;
-	left: 0;
-	/*right: 0; 
-	bottom: 0;*/
-	min-width: 100%; 
-	min-height: 90vh;
-	width: auto;
-	height: auto;
-	z-index: -100;
-
-	/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-	background: url(../img/ext-right-blue.png); /* Fix width. */
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-
-}
 
 .btn {
 	background-color: #0075b7;
@@ -123,13 +51,71 @@ header article {
 
 }
 
-.section-header {
+/* HEADER */
 
-	font-size: 2rem;
-	letter-spacing: 0.3rem;
-	font-weight: 700;
+header { height: 90vh; }
+
+header article {
+
+	/* CENTER HORIZONTALLY & VERTICALLY: */
+	/*position: absolute;
+	width: 100%;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    	transform: translate(-50%, -50%);*/
 
 }
+
+.main-name {
+
+	font-size: 1rem;
+	letter-spacing: 0.7rem;
+	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
+	font-weight: 400;
+	z-index: 10;
+
+}
+
+.main-name-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-subheading { z-index: 10; }
+
+.main-subheading-bg { background-color: rgba(255, 255, 255, 0.2); }
+
+.accord-logo {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+#video-background {
+
+	/* Makes the video fullscreen */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*right: 0; 
+	bottom: 0;*/
+	min-width: 100%; 
+	min-height: 90vh;
+	width: auto;
+	height: auto;
+	z-index: -100;
+
+	/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+	background: url(../img/ext-right-blue.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+/* NAVBAR */
 
 .navbar-brand {
 	max-width: 75%;
@@ -148,10 +134,19 @@ header article {
 	border-left: 2px solid #888;
 }
 
-/*#ui-ux,
-#javascript,
-#certificates,
-#about { min-height: 100vh; }*/
+
+/* ALL SECTIONS */
+
+.section-header {
+
+	font-size: 2rem;
+	letter-spacing: 0.3rem;
+	font-weight: 700;
+
+}
+
+
+/* CONTACT SECTION */
 
 #contact-section {
 
@@ -162,7 +157,7 @@ header article {
 
 }
 
-/* FORM */
+/* Form */
 
 .title-wrapper,
 .form-wrapper {
@@ -174,26 +169,21 @@ header article {
 	width: 80%;
 }
 
-#comments {
-	/*height: 98px;*/
-	height: 75px;
-}
+#comments { height: 75px; }
 
 .recaptcha {
+
 	width: 77%;
 	padding-top: 7px;
-	/*margin-top: -5px;*/
+
 }
 
-.btn-container {
-	width: 100%;
-}
+.btn-container { width: 100%; }
 
-.btn-submit {
-	width: 75%;
-}
+.btn-submit { width: 75%; }
 
-/* EVOLUTION */
+
+/* EVOLUTION SECTION */
 
 #evolution-section {
 	background-image: linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero.jpg );
@@ -208,156 +198,21 @@ header article {
 	color: #fff;
 }
 
-.card {
-	/*background-color: rgba( 255, 255, 255, 0.85 );*/
-	border: none;
-}
+.card { border: none; }
 
 .card-title,
-.card-subtitle {
-	color: #0075b7 !important;
-}
+.card-subtitle { color: #0075b7 !important; }
 
-.proficiencies-card {
-
-	max-width: 65px !important;
-	border: none !important;
-
-}
-
-.proficiencies-card h6 {
-
-	font-size: 0.67rem;
-	font-weight: 700;
-
-}
-
-/* Match CSS3 logo's size to the other icons. */
-.css3-logo {
-
-	-webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-	    transform: scale(1.2);
-	
-}
-
-/* Match Bootstrap logo's size to the other icons. */
-.bootstrap-logo {
-
-	-webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-	    transform: scale(0.8);
-
-}
-
-.mini-logo { width: 20px; }
-
-.portfolio-card-ui-ux { border: 1px solid #000; }
-
-.portfolio-card-js,
-.certificate-card { border: none; }
-
-.portfolio-card-body { min-height: 185px; }
-
-.portfolio-card-body-extended { min-height: 275px; }
-
-.portfolio-card-body .card-title {
-
-	padding-bottom: 15px;
-	border-bottom: 1px solid #000;
-
-}
-
-.portfolio-card-ui-ux .card-footer { background-color: #0a290a; }
-
-.portfolio-card-js .card-footer { background-color: #c0c0c0; }
-
-.certificate-card .card-title { margin-bottom: 0; }
-
-.btn-certificates {
-
-	background-color: #555;
-	color: #fff;
-
-}
-
-#ui-ux { background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#888)); background: -webkit-linear-gradient(#fff, #888); background: -o-linear-gradient(#fff, #888); background: linear-gradient(#fff, #888); }
-
-#javascript { background-color: #0a290a; }
-
-#certificates { background-color: #190D01; }
-
-#about { background-color: #fff; }
-
-.bio a:link,
-.bio a:visited {
-
-	text-decoration: none !important;
-	border-bottom: 2px solid #c0c0c0 !important;
-	padding-bottom: 2px !important;
-	color: inherit !important;
-	-webkit-transition: border-bottom 0.2s;
-			-o-transition: border-bottom 0.2s;
-			transition: border-bottom 0.2s;
-
-}
-
-.bio a:hover,
-.bio a:active {
-
-	text-decoration: none !important;
-	border-bottom: 2px solid #000 !important;
-	padding-bottom: 2px !important;
-	color: inherit !important;
-
-}
-
-#connect {
-
-	background-image: url(../img/bg/cta02.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-
-}
-
-.connect-link a:link,
-.connect-link a:visited {
-
-	color: #fff !important;
-	text-decoration: none;
-	-webkit-transition: color 0.2s;
-			-o-transition: color 0.2s;
-			transition: color 0.2s;
-
-}
-
-.connect-link a:hover,
-.connect-link a:active { color: #999 !important; }
-
-.connect-icon { font-size: 57px; }
 
 /* MEDIA QUERIES */
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
-	.btn-submit {
-		/*width: 50%;*/
-	}
-
 	.main-name {
 
 		font-size: 1.5rem;
 		letter-spacing: 1.3rem;
-		font-weight: 400;
-
-	}
-
-	.main-subheading {
-
-		font-size: 1.3rem;
-		letter-spacing: 0.75rem;
 		font-weight: 400;
 
 	}
@@ -372,22 +227,6 @@ header article {
 	header { height: 75vh; }
 
 	#video-background { min-height: 75vh; }
-
-	.main-name {
-
-		font-size: 3rem;
-		letter-spacing: 1.3rem;
-		font-weight: 300;
-
-	}
-
-	.main-subheading {
-
-		font-size: 2rem;
-		letter-spacing: 0.75rem;
-		font-weight: 300;
-
-	}
 
 	.section-header { font-size: 2.5rem; }
 
@@ -407,10 +246,6 @@ header article {
 	#comments {
 		height: 106px;
 	}
-
-	.main-name { font-size: 4.5rem; }
-
-	.main-subheading { font-size: 3rem; }
 
 	.section-header {
 		
@@ -433,18 +268,10 @@ header article {
 	}
 
 	#comments {
-		/*height: 98px;*/
 		height: 128px;
 	}
 
 	.main-name { font-size: 2rem; }
-
-	/*.main-subheading {
-
-		font-size: 4rem;
-		letter-spacing: 1rem;
-
-	}*/
 
 	.section-header { font-size: 4rem; }
 
