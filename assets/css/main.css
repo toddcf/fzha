@@ -23,7 +23,7 @@ button {
 
 button:hover { cursor: pointer; }
 
-header { height: 86vh; }
+header { height: 90vh; }
 
 header article {
 
@@ -76,7 +76,7 @@ header article {
 	/*right: 0; 
 	bottom: 0;*/
 	min-width: 100%; 
-	min-height: 86vh;
+	min-height: 90vh;
 	width: auto;
 	height: auto;
 	z-index: -100;
@@ -361,6 +361,10 @@ header article {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+	header { height: 75vh; }
+
+	#video-background { min-height: 75vh; }
+
 	.main-name {
 
 		font-size: 3rem;
@@ -383,6 +387,10 @@ header article {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+
+	header { height: 83vh; }
+
+	#video-background { min-height: 83vh; }
 
 	.navbar-brand {
 		max-width: 25%;
@@ -407,6 +415,10 @@ header article {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+	header { height: 80vh; }
+
+	#video-background { min-height: 80vh; }
 
 	.navbar-brand {
 		max-width: 38%;
