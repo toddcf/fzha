@@ -295,6 +295,7 @@
 							<div class="form-row mx-auto text-white preferences">
 								
 								<!-- LABEL: Preferred: -->
+								<p class="d-inline">Preferred Method: </p>
 
 								<div class="form-check form-check-inline pl-4">
 									<label class="form-check-label">
@@ -316,22 +317,31 @@
 
 							</div> <!-- Close PREFERENCES row -->
 
-							<!-- COMMENTS & SUBMIT -->
+							<!-- COMMENTS -->
 							<div class="form-row">
 							
-								<div class="form-group col-md-6">
+								<div class="form-group col-md-10 mx-auto">
 									<textarea class="form-control" id="comments" placeholder="Comments"></textarea>
 								</div>
-
-								<div class="col-md-6">
-									<img src="assets/img/hero-recaptcha-demo.gif" alt="Recaptcha Here" class="recaptcha">
-								</div>
 							
-							</div> <!-- Close COMMENTS & SUBMIT row -->
+							</div> <!-- Close COMMENTS row -->
 
-							<div class="mx-auto text-center btn-container pt-3">
-								<button type="submit" class="btn btn-lg text-white btn-submit">Submit</button>
-							</div>
+							<!-- RECAPTCHA & SUBMIT -->
+							<div class="form-row d-flex flex-row flex-wrap justify-content-center">
+
+								<div class="col-md-5">
+									<div class="mx-auto text-center text-md-right">
+										<img src="assets/img/hero-recaptcha-demo.gif" alt="Recaptcha Here" class="recaptcha">
+									</div>
+								</div>
+
+								<div class="col-md-5">
+									<div class="mx-auto text-center text-md-left btn-container pt-3">
+										<button type="submit" class="btn btn-lg text-white btn-submit">Submit</button>
+									</div>
+								</div>
+
+							</div> <!-- Close RECAPTCHA & SUBMIT Row -->
 
 						</form>
 

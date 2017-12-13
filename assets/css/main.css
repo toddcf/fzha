@@ -168,9 +168,9 @@ header article {
 }
 
 .recaptcha {
-	width: 100%;
-	padding: 0;
-	margin-top: -5px;
+	width: 77%;
+	padding-top: 7px;
+	/*margin-top: -5px;*/
 }
 
 .btn-container {
@@ -178,7 +178,7 @@ header article {
 }
 
 .btn-submit {
-	width: 100%;
+	width: 75%;
 }
 
 /* EVOLUTION */
@@ -330,7 +330,7 @@ header article {
 @media (min-width: 576px) {
 
 	.btn-submit {
-		width: 50%;
+		/*width: 50%;*/
 	}
 
 	.main-name {
