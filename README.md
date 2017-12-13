@@ -26,6 +26,9 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
   - White bg shadow oval with blurred edges behind ACCORD logo.
 - Fix width of backup bg image.
 - Add mask to darken bg.
+- Add the three call-to-action buttons.
+  - (And their hover and click effects.)
+- Add the awards, etc.
 
 ### Nav
 
@@ -50,11 +53,12 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 #### Cards
 
-- 
+- Cards are showing BEFORE the animation is triggered.
 
 ### Footer
 
 - Continue refining widths of each column at different breakpoints.
+- Add bounceInUp to each social media icon.
 
 ## Notable Features
 

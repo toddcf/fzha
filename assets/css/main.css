@@ -51,7 +51,7 @@ button {
 
 button:hover { cursor: pointer; }
 
-header { height: 93vh; }
+header { height: 86vh; }
 
 header article {
 
@@ -105,7 +105,7 @@ header article {
 	/*right: 0; 
 	bottom: 0;*/
 	min-width: 100%; 
-	min-height: 100vh;
+	min-height: 86vh;
 	width: auto;
 	height: auto;
 	z-index: -100;
@@ -151,10 +151,10 @@ header article {
 
 }
 
-#ui-ux,
+/*#ui-ux,
 #javascript,
 #certificates,
-#about { min-height: 100vh; }
+#about { min-height: 100vh; }*/
 
 #contact-section {
 
@@ -197,7 +197,7 @@ header article {
 
 /* EVOLUTION */
 
-#evolution {
+#evolution-section {
 	background-image: linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero.jpg );
 	/*background-image: url( ../img/hero.jpg );*/
 	background-attachment: fixed;
@@ -218,23 +218,6 @@ header article {
 .card-title {
 	color: #0075b7 !important;
 }
-
-.animate-1 {
-
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-
-}
-
-.turbo-text,
-.turbo-img,
-.int-text,
-.int-img { opacity: 0; }
-
-.turbo-text.animate-1.fadeInLeft,
-.turbo-img.animate-1.fadeInRight,
-.int-text.animate-1.fadeInRight,
-.int-img.animate-1.fadeInLeft { opacity: 1; }
 
 .proficiencies-card {
 
