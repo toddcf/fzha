@@ -52,6 +52,10 @@ footer li {
 	text-align: justify;
 }
 
+.footnotes-ul {
+	width: 95%;
+}
+
 .fa {
 	font-size: 57px;
 }
