@@ -22,10 +22,10 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 
 ### Header
 
-- Fix width of backup bg image.
-- Add mask to darken bg.
 - Accord logo:
   - White bg shadow oval with blurred edges behind ACCORD logo.
+- Fix width of backup bg image.
+- Add mask to darken bg.
 
 ### Nav
 
@@ -43,15 +43,19 @@ http://www.hondaofnewrochelle.com/2018-honda-accord
 - Add "required".
 - SUBMIT button:
   - Add hover and click effects.
+  - Adjust width based on media queries.
 - Pop the entire form out toward you upon scrolling down.
 
 ### Evolution Section
 
 #### Cards
 
-- Change order based on screen width.
-- Animate in from left and right accordingly.
+- 
 
 ### Footer
 
-- Format social media icons so they don't extend farther right than the footnotes.
+- Continue refining widths of each column at different breakpoints.
+
+## Notable Features
+
+- The "Art of Evolution" cards change order inside their flexbox depending on screen width. This way, the image is on top when stacked vertically, but on the right when side-by-side.
