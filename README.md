@@ -14,3 +14,4 @@ Sample landing page I built for the 2018 Honda Accord as part of a job interview
 - fadeInRight each button ONE AT A TIME, after a delay. (DO NOT use Waypoints, as there is no need to trigger something on scroll that is at the top of the page.)
 - Contain navbar contents inside a custom 1920px-wide, centered container.
 - Have contact form cover only half of the image on large screens.
+- Use Honda's preferred Avenir font for everything. (I didn't know about brand compliance before taking this job.)
