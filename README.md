@@ -1,38 +1,12 @@
 # 2018 Honda Accord
 
-Landing page for 2018 Honda Accord.
-
-## Previous:
-
-http://www.hondaofnewrochelle.com/2018-honda-accord
+Sample landing page I built for the 2018 Honda Accord as part of a job interview. (Yes, I got the job!)
 
 ## To Do:
 
 ### Header
 
 - fadeInRight each button ONE AT A TIME, after a delay. (DO NOT use Waypoints, as there is no need to trigger something on scroll that is at the top of the page.)
-
-### Nav
-
-- N/A
-
-### Contact Section
-
-#### Heading
-
-- N/A
-
-#### Form
-
-- N/A
-
-### Evolution Section
-
-- N/A
-
-### Footer
-
-- N/A
 
 ## Notable Features
 
