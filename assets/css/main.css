@@ -150,6 +150,10 @@ header { height: 90vh; }
 
 }
 
+.form-group label {
+	color: #fff;
+}
+
 .preferences { width: 80%; }
 
 #comments { height: 75px; }
