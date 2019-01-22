@@ -170,13 +170,13 @@ header { height: 90vh; }
 
 #evolution-section {
 
-	background-image: -webkit-gradient( linear, left top, left bottom, from(rgba( 0, 0, 0, 0.75 )), to(rgba( 0, 0, 0, 0.75 )) ), url( ../img/hero.jpg );
+	background-image: -webkit-gradient( linear, left top, left bottom, from(rgba( 0, 0, 0, 0.75 )), to(rgba( 0, 0, 0, 0.75 )) ), url( ../img/hero/hero-2500x1315-min.jpg );
 
-	background-image: -webkit-linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero.jpg );
+	background-image: -webkit-linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero/hero-2500x1315-min.jpg );
 
-	background-image: -o-linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero.jpg );
+	background-image: -o-linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero/hero-2500x1315-min.jpg );
 
-	background-image: linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero.jpg );
+	background-image: linear-gradient( rgba( 0, 0, 0, 0.75 ), rgba( 0, 0, 0, 0.75 ) ), url( ../img/hero/hero-2500x1315-min.jpg );
 	background-attachment: fixed;
 	background-size: cover;
 	color: #fff;
