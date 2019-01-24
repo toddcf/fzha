@@ -1,6 +1,8 @@
 # 2018 Honda Accord
 
-Sample landing page I built for the 2018 Honda Accord as part of a job interview. (Yes, I got the job!)
+Sample landing page I built for the 2018 Honda Accord as part of the job interview process for fusionZONE Automotive, LLC. (And yes, I got the job!)
+
+https://toddcf.github.io/fzha/
 
 ## Notable Features
 
@@ -13,5 +15,5 @@ Sample landing page I built for the 2018 Honda Accord as part of a job interview
 - Use text instead of a PNG logo for the word "Accord" in the H1, for SEO reasons.
 - fadeInRight each button ONE AT A TIME, after a delay. (DO NOT use Waypoints, as there is no need to trigger something on scroll that is at the top of the page.)
 - Contain navbar contents inside a custom 1920px-wide, centered container.
-- Have contact form cover only half of the image on large screens.
+- Have contact form cover only half of the image on large screens. Also, take another pass at the contact form in general to ensure best practices are being used for UX and accessibility.
 - Use Honda's preferred Avenir font for everything. (I didn't know about brand compliance before taking this job.)
