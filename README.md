@@ -1,10 +1,10 @@
 # 2018 Honda Accord
 
-Sample landing page I built for the 2018 Honda Accord as part of the job interview process for fusionZONE Automotive, LLC. (And yes, I got the job!)
+https://toddcf.github.io/fzha/
 
 ![2018 Honda Accord landing page](https://raw.githubusercontent.com/toddcf/fzha/master/assets/img/ext-front-left-gray/ext-front-left-gray-720x312-min.png "2018 Honda Accord landing page")
 
-https://toddcf.github.io/fzha/
+Sample landing page I built for the 2018 Honda Accord as part of the job interview process for fusionZONE Automotive, LLC. (And yes, I got the job!)
 
 ## Notable Features
 
